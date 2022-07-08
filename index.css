@@ -163,14 +163,17 @@ a.cta-btn {
   font-weight: bold;
   font-size: 1em;
   padding: .2em .4em;
+  border-radius: .2em;
 }
 
 nav ul li a {
   font-size: 1.2em;
+  padding: .8em 1em;
 }
 
 h3 {
-  margin-top: 1em;
+  /* margin-top: 1em; */
+  padding-top: 0.625em;
   font-size: unset;
 }
 
@@ -180,4 +183,13 @@ ul.data li p {
 
 main {
   border: unset;
+}
+
+.inner-wrapper {
+  padding: 1em;
+}
+
+.panel {
+  padding: .5em 1em;
+  margin-bottom: 2em;
 }
