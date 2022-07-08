@@ -219,3 +219,25 @@ main {
       margin-bottom: 0;
   }
 }
+
+@media (min-width: 720px) {
+  body {
+      padding: 1.5em;
+  }
+  .columns {
+      display: flex;
+  }
+  .col {
+      flex: 0 0 48%;
+  }
+  .secondary {
+      margin-left: 3em;
+  }
+  ul.secondary {
+      margin-top: 0;
+  }
+  nav {
+      width: 30%;
+  }
+  
+}
