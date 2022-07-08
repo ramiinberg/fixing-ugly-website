@@ -142,9 +142,42 @@ main {
 /* Your Fixes Below */
 
 body {
-  background: #1e293b
+  background: #1e293b;
+  font-family: 'Nunito', sans-serif;
 }
 
 nav {
   background: #334672;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a.cta-btn {
+  font-weight: bold;
+  font-size: 1em;
+  padding: .2em .4em;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: unset;
+}
+
+ul.data li p {
+  margin: 0;
+}
+
+main {
+  border: unset;
 }
