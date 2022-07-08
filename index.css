@@ -141,3 +141,10 @@ main {
 
 /* Your Fixes Below */
 
+body {
+  background: #1e293b
+}
+
+nav {
+  background: #334672;
+}
